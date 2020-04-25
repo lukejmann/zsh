@@ -12,13 +12,15 @@ antigen theme https://github.com/denysdovhan/spaceship-zsh-theme spaceship
 
 # Bundles from the default repo (robbyrussell's oh-my-zsh).
 antigen bundle zsh-users/zsh-syntax-highlighting
+antigen bundle zsh-users/zsh-autosuggestions
+
 
 
 # Tell Antigen that you're done.
 antigen apply
 
 # Setup zsh-autosuggestions
-source "$HOME/zsh/external/zsh-autosuggestions/zsh-autosuggestions.zsh"
+# source "$HOME/zsh/external/zsh-autosuggestions/zsh-autosuggestions.zsh"
 
 # Load custom aliases
 source "$HOME/zsh/aliases.zsh"
