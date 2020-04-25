@@ -3,7 +3,7 @@ if [ "$(uname 2> /dev/null)" != "Linux" ]; then
 fi
 
 
-source /usr/local/share/antigen/antigen.zsh
+source "$HOME/zsh/antigen.zsh"
 
 # Load the oh-my-zsh's library.
 antigen use oh-my-zsh
@@ -21,6 +21,6 @@ antigen apply
 source "$HOME/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh"
 
 # Load custom aliases
-[[ -s "$HOME/zsh/aliases.zsh" ]] && source "$HOME/zsh/aliases.zsh"
+source "$HOME/zsh/aliases.zsh"
 
 path+=('/Users/luke/dev/mongodb/bin')
