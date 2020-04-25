@@ -1,2 +1,2 @@
-ln -s -F ~/zsh/.zshrc ~/.zshrc
+ln -s -f ~/zsh/.zshrc ~/.zshrc
 # chsh -s $(which zsh)
