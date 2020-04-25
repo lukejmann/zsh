@@ -18,7 +18,7 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 antigen apply
 
 # Setup zsh-autosuggestions
-source "$HOME/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh"
+source "$HOME/zsh/external/zsh-autosuggestions/zsh-autosuggestions.zsh"
 
 # Load custom aliases
 source "$HOME/zsh/aliases.zsh"
