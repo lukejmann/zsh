@@ -8,8 +8,7 @@ source "$HOME/zsh/antigen.zsh"
 # Load the oh-my-zsh's library.
 antigen use oh-my-zsh
 # Load the theme
-antigen theme https://github.com/denysdovhan/spaceship-zsh-theme spaceship
-
+antigen bundle tylerreckart/hyperzsh
 # Bundles from the default repo (robbyrussell's oh-my-zsh).
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-autosuggestions
