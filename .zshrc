@@ -7,11 +7,17 @@ source "$HOME/zsh/antigen.zsh"
 
 # Load the oh-my-zsh's library.
 antigen use oh-my-zsh
-# Load the theme
-antigen bundle tylerreckart/hyperzsh
-# Bundles from the default repo (robbyrussell's oh-my-zsh).
+
+# theme
+antigen bundle jackharrisonsherlock/common
+antigen theme jackharrisonsherlock/common
+
+# oh-my-sh plugins
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-autosuggestions
+
+#external pligins
+antigen bundle agkozak/zsh-z
 
 
 
