@@ -2,6 +2,8 @@ if [ "$(uname 2> /dev/null)" != "Linux" ]; then
     source "$HOME/zsh/mac-only.zsh"
 fi
 
+git config --global credential.helper 'cache --timeout=3600000'
+
 
 source "$HOME/zsh/antigen.zsh"
 
@@ -31,3 +33,4 @@ antigen apply
 source "$HOME/zsh/aliases.zsh"
 
 path+=('/Users/luke/dev/mongodb/bin')
+path+=('/Users/lukemann/Library/Python/3.7/bin')
