@@ -20,6 +20,9 @@ antigen bundle zsh-users/zsh-autosuggestions
 
 #external pligins
 antigen bundle agkozak/zsh-z
+antigen bundle andrewferrier/fzf-z
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
 
 
 
