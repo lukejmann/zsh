@@ -14,3 +14,5 @@ alias zz='fasd_cd -d -i' # cd with interactive selection
 
 
 alias ip='ipconfig getifaddr en0'
+
+alias dc='docker-compose'
