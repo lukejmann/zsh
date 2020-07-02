@@ -37,3 +37,8 @@ source "$HOME/zsh/aliases.zsh"
 
 path+=('/Users/luke/dev/mongodb/bin')
 path+=('/Users/lukemann/Library/Python/3.7/bin')
+path+=('/Users/luke/Library/Python/2.7/bin')
+
+export GOPATH=$HOME/luke/golang
+export GOROOT=/usr/local/opt/go/libexec
+export PATH=$PATH:$GOPATH/bin
