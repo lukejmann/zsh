@@ -12,3 +12,8 @@ export NVM_DIR="$HOME/.nvm"
 # export GOROOT=/usr/local/opt/go/libexec
 # export PATH=$PATH:$GOPATH/bin
 # export PATH=$PATH:$GOROOT/bin
+
+
+export GOPATH=$HOME/luke/golang
+export GOROOT=/usr/local/opt/go/libexec
+export PATH=$PATH:$GOPATH/bin
