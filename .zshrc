@@ -34,6 +34,7 @@ antigen apply
 
 # Load custom aliases
 source "$HOME/zsh/aliases.zsh"
+source "$HOME/zsh/functions.zsh"
 
 path+=('/Users/luke/dev/mongodb/bin')
 path+=('/Users/lukemann/Library/Python/3.7/bin')
