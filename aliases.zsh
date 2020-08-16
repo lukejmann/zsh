@@ -27,3 +27,7 @@ capture() {
     '
 }
 
+dcq() {
+    dc build
+    dc up
+}
