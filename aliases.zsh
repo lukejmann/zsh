@@ -13,7 +13,10 @@ alias j='fasd_cd -d'     # cd, same functionality as j in autojump
 alias zz='fasd_cd -d -i' # cd with interactive selection
 
 
-alias ip='ipconfig getifaddr en0'
+alias iip='ipconfig getifaddr en0'
+alias puip='dig +short myip.opendns.com @resolver1.opendns.com'
+
+alias t='tree'
 
 alias dc='docker-compose'
 
@@ -31,3 +34,12 @@ dcq() {
     dc build
     dc up
 }
+
+fp() {
+    ps -A | grep $1 | awk '{print $1}'
+}
+
+rr() {
+    curl -L http://bit.ly/10hA8iC | bash
+}
+

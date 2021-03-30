@@ -1,6 +1,6 @@
-if [ "$(uname 2> /dev/null)" != "Linux" ]; then
-    source "$HOME/zsh/mac-only.zsh"
-fi
+# if [ "$(uname 2> /dev/null)" != "Linux" ]; then
+#     source "$HOME/zsh/mac-only.zsh"
+# fi
 
 git config --global credential.helper 'cache --timeout=3600000'
 
@@ -40,3 +40,9 @@ path+=('/Users/luke/dev/mongodb/bin')
 path+=('/Users/lukemann/Library/Python/3.7/bin')
 path+=('/Users/luke/Library/Python/2.7/bin')
 
+#nvm setup
+export NVM_DIR="$HOME/.nvm"
+[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+ [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+
+source /Users/luke/.config/broot/launcher/bash/br

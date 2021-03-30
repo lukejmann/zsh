@@ -4,7 +4,7 @@ function lgit() {
     git push
 }
 
-function mkg() {
+function mc() {
     mkdir $1
     cd $1
 }
@@ -13,4 +13,9 @@ function update-go(){
     git clone https://github.com/udhos/update-golang
     cd update-golang
     sudo ./update-golang.sh
+}
+
+
+function c() {
+    code $1
 }
