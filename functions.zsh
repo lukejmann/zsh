@@ -15,7 +15,11 @@ function update-go(){
     sudo ./update-golang.sh
 }
 
-
 function c() {
     code $1
+}
+
+function mkdes() {
+    mkdir $1
+    mkdir $1/out
 }

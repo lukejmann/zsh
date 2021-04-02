@@ -20,6 +20,10 @@ alias t='tree'
 
 alias dc='docker-compose'
 
+alias gc='git commit'
+
+alias og='open https://github.com/lukejmann/roll-design'
+
 
 capture() {
     sudo dtrace -p "$1" -qn '
