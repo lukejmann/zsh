@@ -1,6 +1,8 @@
 alias h='history'
 alias gitfetch='git fetch --all; git reset --hard origin/master'
+alias gitfetch2='git fetch --all; git reset --hard origin/main'
 
+alias ig='npx ignite-cli'
 
 # FASD STUFF
 alias a='fasd -a'        # any
