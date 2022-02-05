@@ -42,11 +42,18 @@ path+=('/Users/luke/Library/Python/2.7/bin')
 
 #nvm setup
 export NVM_DIR="$HOME/.nvm"
-[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
- [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-source /Users/luke/.config/broot/launcher/bash/br
+# source /Users/luke/.config/broot/launcher/bash/br
 
 #fly.io setup
 export FLYCTL_INSTALL="/Users/luke/.fly"
 export PATH="$FLYCTL_INSTALL/bin:$PATH"export PATH="/usr/local/opt/sphinx-doc/bin:$PATH"
+export PATH="/Users/luke/.local/share/solana/install/active_release/bin:$PATH"
+export PATH="/Users/luke/.cargo/bin/:$PATH"
+export PATH="/Users/luke/solana-1.7.15"/bin:"$PATH"              
+export PATH="/Users/luke/solana-install/solana-1.8.14/bin":"$PATH"
+# export PATH="/Users/luke/anchor/target/release":"$PATH"              
+export PATH="/Users/luke/anchor-latest/target/release":"$PATH"              
+# export PATH="/Users/luke/.local/share/solana/install/active_release/bin:$PATH"[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completionexport PATH="/usr/local/opt/mongodb-community@4.4/bin:$PATH"

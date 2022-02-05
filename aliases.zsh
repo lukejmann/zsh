@@ -14,6 +14,8 @@ alias sf='fasd -sif'     # interactive file selection
 alias j='fasd_cd -d'     # cd, same functionality as j in autojump
 alias zz='fasd_cd -d -i' # cd with interactive selection
 
+alias p="/usr/local/opt/python@3.8/bin/python3"
+alias pi="/usr/local/opt/python@3.8/bin/pip3"
 
 alias iip='ipconfig getifaddr en0'
 alias puip='dig +short myip.opendns.com @resolver1.opendns.com'
